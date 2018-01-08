@@ -1,5 +1,5 @@
 ﻿body 
-    h2
+    /*h2
 
 {
     color: red;
@@ -9,5 +9,18 @@
 h3 {
     color: darkgrey;
     text-transform: lowercase
+}*/
+.st1 {
+    color: red;
+    text-transform: uppercase
+}
+
+.st2 {
+    color: darkgrey;
+    text-transform: lowercase
+}
+h5.st3 {
+    color:darkolivegreen;
+    font-size:40px
 }
 
