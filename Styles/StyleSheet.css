@@ -1,0 +1,13 @@
+﻿body 
+    h2
+
+{
+    color: red;
+    text-transform: uppercase
+}
+
+h3 {
+    color: darkgrey;
+    text-transform: lowercase
+}
+
