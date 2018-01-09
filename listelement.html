@@ -3,21 +3,37 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style>
+        /*項目清單符號改變*/
+        .list{list-style-type:upper-roman}
+        .list1{
+            list-style-type:none;
+            list-style-image:url("image/rarrow01.gif")
+        }
+        .list2{
+            list-style:none;
+            list-style-image:url("image/rarrow02.png")
+        }
+    </style>
 </head>
 <body>
-    <ul>
-        <li>一二三
-        <ul>
-            <li>123
-                <ol style="background-color:aliceblue">
-                    <li>c8763</li>
-                    <li>wait</li>
-                    <li>10 second</li>
-                </ol>
-            </li>            
-            <li style="background-color:bisque">456</li>
-            <li>789</li>
-        </ul>
+    <ul class="list">
+        <li>
+            一二三
+            <ul>
+                <li>
+                    123
+                    <ol class="list1" style="background-color:aliceblue">
+                        <li>c8763</li>
+                        <li>wait</li>
+                        <li>10 second</li>
+                    </ol>
+                </li>
+            </ul>
+            <ul class="list2">
+                <li style="background-color:bisque">456</li>
+                <li>789</li>
+            </ul>
         </li>
     </ul>
     <ol>
@@ -31,7 +47,7 @@
         <dt>根據地</dt>
         <dd>天南山、半駝廢小屋、琉璃仙境、天機湖、水月兩忘軒、鏡湖仙雲、雕神古魄</dd>
         <dt>身分</dt>
-        <dd>佛教傳人、造世七俠之一、古武族太武</dd>        
+        <dd>佛教傳人、造世七俠之一、古武族太武</dd>
     </dl>
     <dl>
         <dt>武學</dt>
