@@ -14,19 +14,27 @@
             list-style:none;
             list-style-image:url("image/rarrow02.png")
         }
+        .in{
+            list-style-position:inherit;
+            background-color:white
+        }
+        .out{
+            list-style-position:outside;
+            background-color:cadetblue
+        }
     </style>
 </head>
 <body>
-    <ul class="list">
+    <ul class="list" style="background-color:cornsilk">
         <li>
             一二三
             <ul>
                 <li>
                     123
                     <ol class="list1" style="background-color:aliceblue">
-                        <li>c8763</li>
+                        <li class="in">c8763</li>
                         <li>wait</li>
-                        <li>10 second</li>
+                        <li class="out">10 second</li>
                     </ol>
                 </li>
             </ul>
