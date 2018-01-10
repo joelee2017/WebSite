@@ -1,5 +1,12 @@
 ﻿body {
 }
+.img1 {
+    float: left;
+}
+
+img {
+    border: 3px outset;
+}
 .cl1 {
     width: 1000px;
     border: 1px solid gray;
@@ -13,24 +20,18 @@
 }
 
 .h1 {
-    font-size: 100px;
+    font-size: 35px;
     text-shadow: 5px 5px 5px #ff006e;
+    padding: 5px;
 }
 
 .h2 {
     font-size: 25px;
+    padding: 5px;
 }
 
 .sp1 {
     font-size: 30px;
-}
-
-.img1 {
-    float: left;
-}
-
-img {
-    border: 3px outset;
 }
 
 p {
@@ -38,4 +39,5 @@ p {
     text-indent: 2em;
     font-family: Consolas;
     text-align: justify;
+    padding: 5px;
 }
