@@ -9,16 +9,34 @@
             margin: 0;
             padding: 0px;
         }
-       
+        article {
+            display: block;
+            width: 1000px;
+            border: 1px solid gray;
+            background-color: white;
+        }
+        figure {
+            width: 455px;
+            border: 5px solid red;
+            float: left;
+        }
+        figcaption {
+            font-size: 30px;
+        }
     </style>
-    <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+    <script>
+        document.createElement("article");
+        document.createElement("figure");
+        document.createElement("figcaption");
+    </script>
+    <!--<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>-->
 </head>
 <body style="background-image:url(/image/1492.jpg);margin:auto;opacity: 0.8;">
-    <div class="cl1" style="margin:0px auto;">
-        <div class="cl2">
+    <article class="cl1" style="margin:0px auto;">
+        <figure class="cl2">
             <img class="img1" src="image/C0701.jpg" />
-            <span class="sp1">桃園兆笙會館去年爆出欠薪爭議，又持續在旅展和官網販售未履約餐券，8日大門深鎖。</span>
-        </div>
+            <fieldset class="sp1">桃園兆笙會館去年爆出欠薪爭議，又持續在旅展和官網販售未履約餐券，8日大門深鎖。</fieldset>
+        </figure>
         <h1 class="h1">兆笙會館欠薪 餐券勒令停售</h1>
         <p>在地經營20餘年的桃園兆笙會館，去年爆出欠薪爭議，案情仍在調解中，兆笙又持續在旅展和官網販售餐券，卻遭信託的陽信銀行指控資金未到位，餐券也未依規定記載禮券編號，桃園市消保官勒令停售，呼籲消費者不要再購買，若業者周五前未出面將開罰最高30萬元，兆笙8日大門深鎖，致電也未獲回應。</p>
         <h2 class="h2">允分三期償還卻跳票</h2>
@@ -27,7 +45,7 @@
         <h2 class="h2">業者至今仍未出面</h2>
         <p>在勞資爭議的同時，兆笙會館和昇園餐廳持續在台北冬季旅展以及官網販售禮券，但陽信銀行卻通知桃園市法務局，指兆笙販售的「2018年菜提貨券$6888」、「波士頓龍蝦火鍋券特惠價$2880」、「英式烤牛肉套餐特惠價$3200」、「2017玫瑰龍蝦套餐$799」、「合菜券優惠價$2200」等5種禮券，資金未到位，擅自記載陽信銀行為信託銀行，也未依規定記載禮券編號。</p>
         <p>桃園市消保官勒令停售，並發函業者限期改善，業者至今仍未出面，目前還不清楚賣了多少張，消保官指出，若1月12日前未說明，將依法開罰3萬至30萬元，呼籲消費者不要再購買，避免禮券淪為廢紙，並提醒已購買的消費者，業者有載明退回禮券、返還價金處理方式的義務，且不得加收費用，消費者可向業者申請退費。</p>
-        <div class="line-it-button" data-lang="zh_Hant" data-type="share-d" data-url="http://localhost:59158/HomeWork.html" style="display: none;"></div>
-    </div>
+        <!--<div class="line-it-button" data-lang="zh_Hant" data-type="share-d" data-url="http://localhost:59158/HomeWork.html" style="display: none;"></div>-->
+    </article>
 </body>
 </html>

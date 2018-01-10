@@ -43,7 +43,7 @@
             <legend>個人資料<em>-必填-</em></legend> <!--legend將 fieldset包起來--> <!--em強調用-->
             <div class="st1">
                 <!--label設定標題 for 搭配id 定位 在用class樣式-->
-                <label for="account1" class="t1">姓名：</label><input type="text" id="account1" name="account" value="guest" size="10" />
+                <label for="account1" class="t1">姓名：</label><input type="text" id="account1" name="account" placeholder="guest" size="10" autocomplete="on" />
             </div>
             <div class="st1">
                 <label class="t1">性別：</label>
@@ -52,6 +52,12 @@
             </div>
             <div class="st1">
                 <label for="password1" class="t1">密碼：</label><input type="password" id="password1" name="pwd" maxlength="8" />
+            </div>
+            <div class="st1">
+                <label for="birth1" class="t1">生日：</label><input type="date" id="birth1" name="birthday" />
+            </div>
+            <div class="st1">
+                <label for="mil" class="t1">Email：</label><input type="email" id="mil" name="mil" multiple/>
             </div>
         </fieldset>
         <fieldset>
@@ -79,7 +85,7 @@
                 <input type="checkbox" name="hobby" value="movie" id="mov1" /><label for="mov1">電影</label>
             </div>
             <div class="st1">
-                <label class="t1">照片：</label><input type="file" name="file1" />
+                <label class="t1">照片：</label><input type="file" name="file1" multiple />
             </div>
             <div class="st1">
                 <label for="memo1" class="t1">意見：</label><textarea cols="40" rows="5" id="memo1" name="memo"></textarea>
@@ -88,6 +94,13 @@
         <div class="sub1">
             <input type="submit" value="送出" />
             <input type="reset" value="清除" />
+        </div>
+        <div>
+            <label for="txtAge" class="t1">Numer：</label><input type="number" name="txtAge" id="txtAge" min="0" max="120" /><br />
+            <label for="rang1" class="t1">Rang：</label><input type="range" name="rang1" id="rang1" min="0" max="120" /><br />
+            <label for="sea1" class="t1">Search：</label><input type="search" id="sea1" name="sea1" /><br />
+            <label for="url1" class="t1">url：</label><input type="url" id="url1" value="http:\\" /><br />
+            <label for="color1" class="t1">Color：</label><input type="color" id="color1" name="color1" /><br />
         </div>
     </form>
 </body>
