@@ -1,5 +1,41 @@
 ﻿body {
 }
+.cl1 {
+    width: 1000px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.cl2 {
+    width: 455px;
+    border: 5px solid red;
+    float: left;
+}
+
 .h1 {
-    color: blue
+    font-size: 100px;
+    text-shadow: 5px 5px 5px #ff006e;
+}
+
+.h2 {
+    font-size: 25px;
+}
+
+.sp1 {
+    font-size: 30px;
+}
+
+.img1 {
+    float: left;
+}
+
+img {
+    border: 3px outset;
+}
+
+p {
+    clear: none;
+    text-indent: 2em;
+    font-family: Consolas;
+    text-align: justify;
 }
