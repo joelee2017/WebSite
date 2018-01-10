@@ -24,19 +24,35 @@
             padding-right:3px;
             /*調整寬浮動靠左，text值靠右，padding(區塊內容靠右)*/
         }
+        fieldset{
+            width:500px;
+            border:1px solid #eecba5;
+            border-radius:20px;
+
+        }
+        em{
+            color:red;
+        }
     </style>
 </head>
 <body>
     <form action="#" method="get"> <!--post無大小限制資料上傳用-->
-        <div class="st1"> <!--label設定標題 for 搭配id 定位 在用class樣式-->
-            <label for="account1" class="t1">姓名：</label><input type="text" id="account1" name="account" value="guest" size="10" />
-        </div>
-        <div class="st1">
-            <label for="password1" class="t1">密碼：</label><input type="password" id="password1" name="pwd" maxlength="8" />
-        </div>
-        <div class="st1">
-            <label for="memo1" class="t1">意見：</label><textarea cols="40" rows="5" id="memo1" name="memo"></textarea>
-        </div class="st1">
+        <fieldset>            <!--fieldset包控制項分群-->
+            <legend>個人資料<em>-必填-</em></legend> <!--legend將 fieldset包起來--> <!--em強調用-->
+            <div class="st1">
+                <!--label設定標題 for 搭配id 定位 在用class樣式-->
+                <label for="account1" class="t1">姓名：</label><input type="text" id="account1" name="account" value="guest" size="10" />
+            </div>
+            <div class="st1">
+                <label for="password1" class="t1">密碼：</label><input type="password" id="password1" name="pwd" maxlength="8" />
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>個人資料(二)<em>-開心就好-</em></legend>
+            <div class="st1">
+                <label for="memo1" class="t1">意見：</label><textarea cols="40" rows="5" id="memo1" name="memo"></textarea>
+            </div>
+        </fieldset>
         <div class="sub1">
             <input type="submit" value="送出" />
             <input type="reset" value="清除" />

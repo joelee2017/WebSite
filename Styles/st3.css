@@ -35,9 +35,9 @@ img {
 }
 
 p {
+    line-height:30px;
     clear: none;
     text-indent: 2em;
     font-family: Consolas;
     text-align: justify;
-    padding: 5px;
 }
