@@ -13,15 +13,6 @@
     float: left;
 }
 
-p {
-    clear: none;
-    text-indent: 2em;
-    font-family: Consolas;
-    margin: 5px;
-    text-align:justify;
-
-}
-
 .h1 {
     font-size: 40px;
     text-shadow: 5px 5px 5px 5px #ff006e;
@@ -30,7 +21,7 @@ p {
 
 .h2 {
     font-size: 25px;
-    margin-left: 5px;
+    margin: 5px;
 }
 
 .sp1 {
@@ -44,4 +35,12 @@ p {
 
 img {
     border: 3px outset;
+}
+
+p {
+    clear: none;
+    text-indent: 2em;
+    font-family: Consolas;
+    margin: 5px;
+    text-align: justify;
 }

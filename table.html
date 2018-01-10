@@ -6,16 +6,16 @@
     <style>
         #table1{
             width:300px;
-            border:3px solid green;
-            border-collapse:separate;
+            border:1px solid green;
+            border-collapse:collapse;
         }
         td,th{
             border:1px solid gray;
         }
-        thead{
-            text-transform:uppercase;
-            border-bottom:3px double blue;
-            background-color:#faef83;
+        thead {
+            text-transform: uppercase;
+            background-color: #faef83;
+            border-bottom: 5px double #ff6a00;
         }
         tbody{
             background-color:#feede1;
@@ -79,5 +79,11 @@
             </tr>
         </tbody>
     </table>
+    <hr />
+    <div>
+        <h3>高度</h3>
+        <h4 style="border:1px double red; width:200px; height:100px; line-height:100px;">垂直高度固定</h4>
+        <h4 style="border:1px double red; width:200px; padding-top:50px; padding-bottom:50px;">垂直高度不固定</h4>
+    </div>
 </body>
 </html>
