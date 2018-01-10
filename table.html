@@ -12,50 +12,62 @@
         td,th{
             border:1px solid gray;
         }
+        thead{
+            text-transform:uppercase;
+            border-bottom:3px double green;
+            background-color:#faef83;
+        }
+        tbody{
+            background-color:#feede1;
+        }
     </style>
 </head>
 <body>
     <table id="table1">
-        <tr>
-            <th>a</th>
-            <th>b</th>
-            <th>c</th>
-            <th>d</th>
-        </tr>
-        <tr>
-            <th colspan="2">a</th> <!--左右合併欄位-->
-            <th colspan="2">c</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td rowspan="3">3</td> <!--3欄位合併，其它都要刪除-->
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
+        <thead>
+            <tr>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+            </tr>
+            <tr>
+                <th colspan="2">a</th> <!--左右合併欄位-->
+                <th colspan="2">c</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="3">3</td> <!--上下3欄位合併，其它都要刪除-->
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
 
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
 
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-
-            <td>4</td>
-        </tr>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
