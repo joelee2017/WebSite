@@ -1,0 +1,132 @@
+﻿body {
+}
+
+/*首頁css樣式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#allpage {
+    width: 1024px;
+    margin: auto;
+}
+
+.menu {
+    overflow: auto;
+    width: 100%;
+    background-color: #e9c7ae;
+    list-style: none;
+    border-top-left-radius: 15px; /*左邊圓角*/
+    border-top-right-radius: 15px; /*右邊圓角*/
+    border-bottom: 3px solid #ce5050;
+}
+
+    .menu li {
+        float: left;
+        width: 7em; /*em使用表示文字隨著大小變化*/
+        border-right: 2px solid #ce5050;
+    }
+
+        .menu li a {
+            display: block;
+            text-align: center; /*針對超連結置中需搭配 display:block*/
+            line-height: 2em;
+            color: #000000;
+            text-decoration: none; /*刪除超連結底線*/
+        }
+
+            .menu li a:hover {
+                background-color: #4f7ff3;
+                color: #d4cdc7;
+            }
+
+.logo1 {
+    display: block;
+}
+
+.content {
+    overflow: auto; /*自動調整區塊內容的大小*/
+    width: 100%;
+    border: 1px solid #4f7ff3;
+}
+
+article {
+    width: 75%;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    float: right;
+}
+
+.title {
+    background-color: #343eef;
+    color: white;
+    line-height: 2em;
+    padding-left: 20px;
+}
+
+article section {
+    margin: 16px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+
+    article section p {
+        margin: 10px 0; /*上下調整10px 左右為0*/
+    }
+
+.list1 {
+    list-style: decimal inside; /*清單改為數質標題，並縮排*/
+}
+
+aside dl {
+    margin: 16px;
+}
+
+footer {
+    color: #000000;
+    background-color: #e9c7ae;
+    border-bottom-left-radius: 15px; /*左邊圓角*/
+    border-bottom-right-radius: 15px; /*右邊圓角*/
+    border-top: 3px solid #ce5050;
+    line-height: 2em;
+    text-align: center;
+}
+
+/*表格練習css樣式*/
+#table1 {
+    margin: 16Px auto;
+    width: 300px;
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid gray;
+}
+
+thead {
+    text-transform: uppercase;
+    background-color: #faef83;
+    border-bottom: 5px double #ff6a00;
+}
+
+tbody {
+    background-color: #feede1;
+    text-align: center;
+}
+
+    tbody tr:nth-child(2n) {
+        background-color: #ffd800;
+    }
+
+    tbody tr:nth-child(2n+1) {
+        background-color: #ff6a00;
+    }
+
+    tbody tr:hover {
+        background-color: white;
+    }
