@@ -4,17 +4,38 @@
     <meta charset="utf-8" />
     <title></title>
     <style>
+        *{
+            margin:0;
+            padding:0;
+        }
         #allpage{
             width:1024px;
             margin:auto;
         }
-        .menu{
-            overflow:auto;
-            width:100%;
-            background-color:#ff6a00;
+        .menu {
+            overflow: auto;
+            width: 100%;
+            background-color: #e9c7ae;
+            list-style: none;
+            border-top-left-radius: 15px; /*左邊圓角*/
+            border-top-right-radius: 15px; /*右邊圓角*/
+            border-bottom: 3px solid #ce5050;
         }
-        .menu li{
-            float:left;
+        .menu li {
+            float: left;
+            width: 7em; /*em使用表示文字隨著大小變化*/
+            border-right: 2px solid #ce5050;                
+        }
+            .menu li a {
+                display: block;
+                text-align: center; /*針對超連結置中需搭配 display:block*/
+                line-height: 2em;
+                color: #000000;
+                text-decoration: none; /*刪除超連結底線*/
+            }
+        .menu li a:hover{
+            background-color:#4f7ff3;
+            color:#d4cdc7;
         }
     </style>
 </head>
@@ -33,6 +54,7 @@
                 </ul>
             </nav>
         </header>
+        <img src="image/Banner_Sky-Sanctuary.jpg" alt="logo" title="logo" width="1024" />
     </div>
 </body>
 </html>
