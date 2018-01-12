@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", ".", "{0FA38039-1C68-4A23-AA9F-EF7FEA680114}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -22,6 +22,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", ".", "{0FA38039-1
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "59158"
 		SlnRelativePath = "..\WebSite\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E1CFA9C-BBBE-410E-97E9-9A43196A262B}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
 	EndProjectSection
 EndProject
 Global
